@@ -4,17 +4,17 @@ var cfenv = require('cfenv');
 
 var config = require('./webpack.config');
 var appEnv = cfenv.getAppEnv();
-var port = appEnv.port;
+var port = 6001 || appEnv.port;
 
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
   historyApiFallback: true
-}).listen(appEnv.port, 'localhost', function (err, result) {
+}).listen(port, 'localhost', function (err, result) {
   if (err) {
     console.log(err);
   }
 
-  console.log('Listening at localhost: ',appEnv.port);
+  console.log('Listening at localhost: ',port);
 });
