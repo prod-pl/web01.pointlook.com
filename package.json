@@ -1,0 +1,48 @@
+{
+  "name": "videoup",
+  "version": "1.0.0",
+  "description": "ReactJS project with hot code reloading for videoup",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://alex2006hw@hub.jazz.net/git/alex2006hw/videoup.1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "videoup",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Alex Davis <alex2006hw@gmail.com> (http://github.com/alex2006hw)",
+  "license": "Restricted private",
+  "bugs": {
+    "url": "https://alex2006hw@hub.jazz.net/git/alex2006hw/videoup.1"
+  },
+  "homepage": "https://alex2006hw@hub.jazz.net/git/alex2006hw/videoup.1",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint-plugin-react": "^3.6.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-native-web": "0.0.9"
+  }
+}
