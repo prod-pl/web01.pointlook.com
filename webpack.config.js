@@ -8,7 +8,7 @@ module.exports = {
   devtool: 'eval',
   port: appEnv.port,
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://localhost:appEnv.port',
     'webpack/hot/only-dev-server',
     './src/index'
   ],
